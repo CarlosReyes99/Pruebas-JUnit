@@ -2,6 +2,9 @@ public class StringUtil {
 
     public static String repeat(String msj, int num){
         StringBuilder result= new StringBuilder();
+        if(num<0){
+            throw new IllegalArgumentException("negative times not allowed");
+        }
         for (int i = 0; i < num; i++) {
             result.append(msj);
         }

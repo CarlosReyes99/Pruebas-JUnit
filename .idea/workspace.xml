@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="304de5ac-e637-423b-9018-65005c4ba9cf" name="Changes" comment="Test con JUnit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,36 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StringUtilTest">
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestingApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.repeat_string_multiple_times" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestingApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilTest" />
+      <option name="METHOD_NAME" value="repeat_string_multiple_times" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.repeat_string_zero_times" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestingApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilTest" />
+      <option name="METHOD_NAME" value="repeat_string_zero_times" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringUtilTest.testRepeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTestingApp" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,6 +92,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilTest" />
+        <item itemvalue="JUnit.StringUtilTest.repeat_string_multiple_times" />
+        <item itemvalue="JUnit.StringUtilTest.repeat_string_zero_times" />
         <item itemvalue="JUnit.StringUtilTest.testRepeat" />
       </list>
     </recent_temporary>
