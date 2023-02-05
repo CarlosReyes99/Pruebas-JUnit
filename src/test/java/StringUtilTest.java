@@ -1,15 +1,14 @@
+import org.junit.Assert;
+import org.junit.Test;
+
 public class StringUtilTest {
-    public static void main(String[] args) {
-        assertEquals(StringUtil.repeat("hola", 3), "holaholahola");
+    @Test
+    public void testRepeat(){
+        Assert.assertEquals("holaholahola",StringUtil.repeat("hola", 3));
 
 
     }
 
-    private static void assertEquals(String current, String expected) {
 
-        if (!current.equals(expected)){
-            throw new RuntimeException(current+" is not equal to "+expected);
-        }
-    }
 
 }
